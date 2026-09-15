@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="main">
+        <h2>User Data Capture</h2>
+        <div id="successMessage"></div>
+
+        <input id="fullName" class="fe" type="text" name="Fullname" placeholder="Enter full Name" required>
+        <input id="email" class="fe" type="email" name="Email" placeholder="Enter e-mail" required>
+        <input id="phone" class="fe" type="tel" name="PhoneNumber" placeholder="Enter Phone Number" required>
+        <input id="password" class="fe" type="password" name="Password" placeholder="Enter password" required>
+        <input id="confirmPassword" class="fe" type="password" name="Comfirm_password" placeholder="confirm password" required>
+
+        <input type="checkbox" name="agreemeent" id="agree" value="yes" required>
+        <label for="agree">I agree to the terms and condition</label><br>
+        <button type="submit">Sign Up</button>
+    </form> 
+
+    <script src="code.js"></script>
+</body>
+</html>
